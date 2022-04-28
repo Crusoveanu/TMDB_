@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TMDB.Data", "TMDB.Data\TMDB.Data.csproj", "{0CEFDD05-AC74-46ED-A4C9-83AEBCFD033B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TMDB.Web", "TMDB.Web\TMDB.Web.csproj", "{8A059A5A-8E33-47DD-9EA7-B58388B19F75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CEFDD05-AC74-46ED-A4C9-83AEBCFD033B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CEFDD05-AC74-46ED-A4C9-83AEBCFD033B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CEFDD05-AC74-46ED-A4C9-83AEBCFD033B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CEFDD05-AC74-46ED-A4C9-83AEBCFD033B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A059A5A-8E33-47DD-9EA7-B58388B19F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A059A5A-8E33-47DD-9EA7-B58388B19F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A059A5A-8E33-47DD-9EA7-B58388B19F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A059A5A-8E33-47DD-9EA7-B58388B19F75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FF91286-47A6-4434-8CE1-640C3DE45AC1}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,36 @@
+﻿.pie__circle {
+    width: 50px;
+    background: black;
+    border-radius: 50%;
+    height: 50px;
+    margin-top: -28px;
+    position: relative;
+    margin-left: 10px;
+}
+
+.ant-card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.ant-card-body {
+    padding: 0px;
+}
+
+.Toastify__close-button{
+    width: 10px !important;
+    height: 10px !important;
+    background-color: white !important;
+    margin-top: 20px!important;
+}
+.ant-col-8 {
+    display: block;
+    flex: 0 0 25%; 
+    max-width: 25%;
+}
+.p__release-year {
+    text-align: center;
+    font-style: italic;
+}

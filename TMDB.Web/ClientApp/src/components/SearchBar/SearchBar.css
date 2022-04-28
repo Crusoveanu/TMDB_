@@ -1,0 +1,85 @@
+﻿.SearchButton {
+    height: 50px !important;
+    width: 125px !important;
+    right: 11px;
+    width: 20%;
+    background: linear-gradient(to right, rgba(30,213,169, 1) 0%, rgba(1,180,228, 1) 100%);
+    cursor: pointer;
+    position: absolute;
+    border-radius: 20px;
+    top: 240px;
+}
+.SearchButton:hover {
+    background: #0b7dda;
+}
+
+.searchInput {
+    display: flex;
+}
+
+.search input {
+    background-color: white;
+    border: 0;
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 18px;
+    padding: 15px;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    color: black;
+    top: 100px;
+}
+
+.searchIcon {
+    height: 29px;
+    width: 50px;
+    background-color: white;
+    display: grid;
+    place-items: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+.searchIcon svg {
+    font-size: 35px;
+}
+
+.dataResult {
+    margin-top: 101px;
+    width: 30%;
+    height: 234px;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    overflow: auto;
+    overflow-y: auto;
+    text-align: center;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+    .dataResult .dataItem {
+        display: flex;
+        height: 75px;
+        color: black;
+    }
+
+.dataItem p {
+    margin-left: -13px;
+    padding: 30px;
+}
+a {
+    text-decoration: none;
+}
+
+.dataItem:hover {
+    color: #dd9933;
+    transition: 0.4s ease;
+}

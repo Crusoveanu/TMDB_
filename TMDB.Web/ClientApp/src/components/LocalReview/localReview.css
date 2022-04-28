@@ -1,0 +1,21 @@
+﻿.writeReview__button {
+    background-color: rgba(52.5, 10.5, 10.5, 1);
+    border-color: rgba(52.5, 10.5, 10.5, 1);
+    color: #ffffff;
+    border-radius: 20px;
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    padding: 6px 20px;
+    font-size: 0.9em;
+}
+
+.writeReview__button_a {
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}

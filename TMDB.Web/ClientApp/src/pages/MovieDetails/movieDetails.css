@@ -1,0 +1,43 @@
+﻿.div__genre {
+    display: flex;
+    justify-content: space-between;
+    max-width: 450px;
+}
+.pie__circle__details {
+    width: 65px;
+    height: 65px;
+    background: black;
+    border-radius: 50%;
+}
+    .pie__circle__details:hover {
+        transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        cursor: pointer;
+    }
+.pie__text {
+    font-weight: 700;
+    white-space: pre-line;
+    font-size: 20px;
+    padding: 10px;
+}
+.p__tagline {
+    font-size: 18px;
+    font-style: italic;
+    color: darkgray;
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+.div__left {
+    background-color: #fff;
+    max-width: calc(var(--maxPrimaryPageWidth) - 80px - 268px);
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+    padding-right: 30px;
+    width: 80%;
+}
+.div__right{
+
+}
+.movieDetails__rightDiv {
+    margin-top: -15px;
+}

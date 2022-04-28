@@ -1,0 +1,9 @@
+﻿.div__pagination {
+    margin: auto;
+    width: 28%;
+    padding: 10px;
+}
+.div__filter {
+    float: left;
+    width: 15%;
+}

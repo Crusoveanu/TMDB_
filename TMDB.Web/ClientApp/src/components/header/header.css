@@ -1,0 +1,51 @@
+﻿.topHeader {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    background-color: rgba(3,37,65, 1);
+    padding: 10px;
+    margin: auto;
+}
+.p__header {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.SubMenu {
+    background-color: rgba(3,37,65, 1);
+    min-width: 605px;
+}
+.primaryNav {
+    background-color: rgba(3,37,65, 1);
+    color: white;
+}
+
+.navHeader {
+    display: flex;
+    height: 56px;
+    justify-content: center;
+}
+.header__logo {
+    max-height: 20px;
+    width: auto;
+    cursor: pointer;
+    margin: 6px 0px 8px;
+}
+
+.topIconViewCount {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: -7px;
+    right: -20px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+
+

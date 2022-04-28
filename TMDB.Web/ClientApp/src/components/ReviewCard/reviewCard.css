@@ -1,0 +1,18 @@
+﻿.ant-card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.ant-card-body {
+    padding: 0px;
+}
+.ant-col-8 {
+    display: block;
+    flex: 0 0 25%; 
+    max-width: 25%;
+}
+.p__character {
+    text-align: center;
+    font-style: italic;
+}
